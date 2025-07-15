@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-config="viewer">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Map Viewer</title>    
+    <script>      
+      window.esriConfig = {
+        has: {
+          "esri-deprecation-warnings": false
+        }
+      };
+    </script>
+    <script type="module" crossorigin src="./assets/app-components-Dh2A7SJP.js"></script>
+    <script type="module" crossorigin src="./assets/contextual-actions-cUyDGO-6.js"></script>
+    <script type="module" crossorigin src="./assets/global-nav-Ctjw73di.js"></script>
+    <script type="module" crossorigin src="./assets/itembrowsers-DoAR2jhk.js"></script>
+    <script type="module" crossorigin src="./assets/symbologyeditor-BWqw2mNG.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/global-nav-Bqs4ibeX.css">
+    <link rel="stylesheet" crossorigin href="./assets/symbologyeditor-BqLmkfUk.css">
+  </head>
+  <body>
+    <div class="calcite-shell-container"></div>
+  </body>
+</html>
